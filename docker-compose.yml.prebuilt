@@ -1,0 +1,20 @@
+hub:
+  image: touchcast/selenium-hub
+  ports:
+    - "4444:4444"
+firefox:
+  image: touchcast/selenium-firefox
+  links:
+    - hub
+  expose:
+    - "5555"
+  ports:
+    - "5900:5900"
+chrome:
+  image: touchcast/selenium-chrome
+  links:
+    - hub
+  expose:
+    - "5555"
+  ports:
+    - "5901:5900"
