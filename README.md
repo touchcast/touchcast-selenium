@@ -24,6 +24,20 @@ Now you should have 3 containers running, verify this by going:
 
 `docker ps`
 
+### Automatic build process:
+
+Use the alternative `docker-compose.yml.prebuilt` by renaming it to `docker-compose.yml`  
+
+Then run:
+
+`docker-compose up -d`  
+
+Now you should have 3 containers running, verify this by going:
+
+`docker ps`  
+
+### Yay, you have it running:
+
 Selenium Grid Console is now available at:
 
 `<docker ip address>:4444/grid/console`
