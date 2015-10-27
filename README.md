@@ -47,6 +47,10 @@ To view what's going on, use VNC - Macs have "Screen Viewer" built-in, just type
 `vnc://<docker ip address>:5900` - to connect to the Firefox container  
 `vnc://<docker ip address>:5901` - to connect to the Chrome container
 
+The password to connect to VNC is:
+
+`secret`
+
 If for some reason VNC service dies, connect to container and restart service:
 
 `docker exec -it <container name> bash`
