@@ -9,9 +9,11 @@ Ensure you have all the Docker tools already installed.
 `cd hub`  
 `docker build --no-cache -t selenium/hub .`
 
+`cd ..`  
 `cd chrome`  
 `docker build --no-cache -t selenium/chrome .`
 
+`cd ..`  
 `cd firefox`  
 `docker build --no-cache -t selenium/firefox .`
 
