@@ -1,4 +1,4 @@
-# touchcast-selenium
+# Docker Selenium Grid
 
 A Docker project to run your own Selenium Grid and watch the tests fly via VNC.
 
